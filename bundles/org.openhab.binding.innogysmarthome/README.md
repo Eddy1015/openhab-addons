@@ -1,7 +1,7 @@
-# innogy SmartHome Binding
+# Livisi Binding (former innogy SmartHome)
 
-The binding integrates the [innogy SmartHome](https://innogy.com/smarthome) system into openHAB.
-It uses the official API 1.1 as provided by innogy as cloud service.
+The binding integrates the [Livisi SmartHome](https://www.livisi.de/), former [innogy SmartHome](https://innogy.com/smarthome) system into openHAB.
+It uses the official API 1.1 as provided by Livisi / innogy as cloud service.
 As all status updates and commands have to go through the API, a permanent internet connection is required.
 Currently there is no API for a direct communication with the innogy SmartHome Controller (SHC).
 
@@ -9,7 +9,7 @@ Currently there is no API for a direct communication with the innogy SmartHome C
 
 ### Bridge
 
-The innogy SmartHome Controller (SHC) is the bridge, that provides the central communication with the devices.
+The Livisi / innogy SmartHome Controller (SHC) is the bridge, that provides the central communication with the devices.
 Without the SHC, you cannot communicate with the devices.
 This binding supports both the SHC and the SHC2 (with support for Bluetooth devices).
 
